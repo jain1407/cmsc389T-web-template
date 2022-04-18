@@ -28,4 +28,4 @@ jobs:
             ssh-keyscan -H github.com >> ~/.ssh/known_hosts
             cd ..
             cd /pub/${{ secrets.USERNAME }}
-            git clone https://github.com/Asyfundyar/cmsc389T-web-template.git
+            git clone https://github.com/jain1407/cmsc389T-web-template.git
