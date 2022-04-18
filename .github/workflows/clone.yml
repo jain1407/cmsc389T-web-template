@@ -27,5 +27,5 @@ jobs:
           script: |
             ssh-keyscan -H github.com >> ~/.ssh/known_hosts
             cd ..
-            cd /pub/${{ secrets.USERNAME }}
+            cd /pub/jain1407
             git clone https://github.com/jain1407/cmsc389T-web-template.git
