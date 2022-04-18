@@ -27,4 +27,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
              unalias rm
+             cd /pub/jain1407
              rm -rf cmsc389T-web-template
